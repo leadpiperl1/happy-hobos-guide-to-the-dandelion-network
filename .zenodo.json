@@ -1,0 +1,35 @@
+{
+  "title": "The Happy Hobo's Guide to the Dandelion Network (v4.1.1 Omnibus & Porch Edition): Four-Paper Dispersive-Ternary Compendium, 18.5 W Hobo Rig Architecture, and the Urshwera Protocol",
+  "version": "4.1.1",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "publication_date": "2026-11-03",
+  "creators": [
+    {
+      "name": "Grimm, Justin D.",
+      "affiliation": "Independent Dandelion Substrate Research Group, Gurley, Alabama 35748, USA",
+      "orcid": "0009-0000-5299-0243"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Dandelion Network",
+    "Happy Hobo Protocol",
+    "Hobo Rig",
+    "Urshwera Protocol",
+    "Balanced Ternary",
+    "Harappan Tensegrity"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21255229",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/leadpiperl1/happy-hobos-guide-to-the-dandelion-network",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

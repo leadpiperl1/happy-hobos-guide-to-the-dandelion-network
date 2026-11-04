@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you reference The Happy Hobo's Guide to the Dandelion Network, please cite it as below."
+title: "The Happy Hobo's Guide to the Dandelion Network (v4.1.1 Omnibus & Porch Edition)"
+version: "4.1.1"
+date-released: "2026-11-03"
+authors:
+  - family-names: "Grimm"
+    given-names: "Justin D."
+    orcid: "https://orcid.org/0009-0000-5299-0243"
+repository-code: "https://github.com/leadpiperl1/happy-hobos-guide-to-the-dandelion-network"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.14159269"
