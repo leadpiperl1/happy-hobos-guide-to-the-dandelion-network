@@ -1,26 +1,11 @@
 cff-version: 1.2.0
-title: "Dandelion Sovereign Protocol (v4.1.1) and The Inharmonicity of Abstraction (v1.0.0): Coupled Dispersive Lattice Optimization, Harappan Tensegrity Assistive Kernel, Geomorphic Quartz Metrology, and Signature-3 Ramanujan Synthesis"
-message: "If you use these manuscripts, the C99 MTP Assistive Library, the Lean 4 formalizations, or the Python verification harnesses, please cite this release."
-type: software
-version: "4.1.1"
-date-released: "2026-11-04"
-license: GPL-2.0-or-later
+message: "If you use The Happy Hobo's Guide to the Dandelion Network, please cite it using the metadata below."
+title: "The Happy Hobo's Guide to the Dandelion Network: Living Trunk Compendium & Field Manual"
+date-released: "2026-11-09"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/leadpiperl1/happy-hobos-guide"
 authors:
   - family-names: "Grimm"
     given-names: "Justin D."
     orcid: "https://orcid.org/0009-0000-5299-0243"
     affiliation: "Independent Dandelion Substrate Research Group, Gurley, Alabama 35748, USA"
-keywords:
-  - "coupled inharmonic lattice"
-  - "Euler-Bernoulli dispersion"
-  - "Railsback curve"
-  - "Lindblad master equation"
-  - "balanced ternary"
-  - "Linux PREEMPT_RT"
-  - "sched_ext"
-  - "assistive technology"
-  - "tensegrity biomechanics"
-  - "optically stimulated luminescence"
-  - "Ramanujan mock theta functions"
-  - "Mori-Zwanzig projection"
-  - "Landauer limit"
