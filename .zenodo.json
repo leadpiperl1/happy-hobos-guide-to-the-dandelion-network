@@ -1,13 +1,38 @@
 {
-  "title": "The Happy Hobo's Guide to the Dandelion Network (Living Trunk)",
-  "upload_type": "publication",
-  "publication_type": "book",
-  "license": "cc-by-4.0",
+  "title": "The Happy Hobo's Guide to the Dandelion Network (v5.0.1): Ecotone Exploit-to-Waveguide Transducer & Open Commons",
+  "upload_type": "software",
+  "version": "5.0.1",
+  "publication_date": "2026-11-11",
+  "description": "ISO C99 microkernel, 1-byte-aligned 577B Julia 1.12 zero-copy FFI pilot, 16-slice Virtual Bit-Slice Transform (VBST) ternary inference, 35.90 us Bite-10 Coma-Bridge accessibility filter, and Non-Trolley Madras Sanctuary verification suite.",
   "creators": [
     {
       "name": "Grimm, Justin D.",
       "affiliation": "Independent Dandelion Substrate Research Group, Gurley, Alabama 35748, USA",
       "orcid": "0009-0000-5299-0243"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "balanced ternary",
+    "Landauer limit",
+    "Fowler packing",
+    "virtual bit-slice transform",
+    "accessibility",
+    "human-AI interaction",
+    "C99",
+    "Julia"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/leadpiperl1/happy-hobos-guide-to-the-dandelion-network",
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.21255229",
+      "relation": "continues"
     }
   ]
 }
