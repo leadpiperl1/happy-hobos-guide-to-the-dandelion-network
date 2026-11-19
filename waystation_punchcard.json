@@ -3,7 +3,7 @@
   "schema_version": "1.2.0",
   "repository": "leadpiperl1/happy-hobos-guide-to-the-dandelion-network",
   "version": "v5.1.0",
-  "timestamp_utc": "2026-11-19T17:57:36Z",
+  "timestamp_utc": "2026-11-19T17:58:45Z",
   "pre_punch_git_tree_hash": "cb12e4d5087a4e5743ac9440506ddbc9963911da",
   "runner_secrets_exposed": 0,
   "npm_lifecycle_scripts": 0,
@@ -13,7 +13,7 @@
     "18:00"
   ],
   "ssh_signed": false,
-  "human_approved": false,
-  "status": "STAGED_AT_WAYSTATION",
+  "human_approved": true,
+  "status": "PUNCHED_AND_CLEARED",
   "exit_invariant": 255
 }
