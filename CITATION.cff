@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this software or specification, please cite it using the metadata below."
-title: "Dandelion Successor Architecture (v5.0.2): A Landauer-Bounded, Kronecker-Finite Balanced Ternary Substrate"
-version: 5.0.2
-date-released: 2026-11-11
+message: "If you use this compendium, Waystation governance protocol, or verification suite, please cite it using the metadata below."
+title: "The Happy Hobo's Guide to the Dandelion Network (v5.1.0): Waystation Punch-Card Governance & Open Commons Compendium"
+version: 5.1.0
+date-released: 2026-11-19
 license: MIT
 repository-code: "https://github.com/leadpiperl1/happy-hobos-guide-to-the-dandelion-network"
 authors:

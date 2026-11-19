@@ -1,25 +1,25 @@
 /**
  * ============================================================================
- * dandelion_quad_repo_bridge_v5_0_2.gs — 4-Repo Chromatic Porch & Git->Zenodo Bridge
+ * dandelion_quad_repo_bridge_v5_1_0.gs — 4-Repo Chromatic Porch & Git->Zenodo Bridge
  * ============================================================================
- * Version:     v5.0.2 (Armistice Day Campfire Porch + Zero-Form Zenodo Release Engine)
+ * Version:     v5.1.0 (Armistice Day Campfire Porch + Zero-Form Zenodo Release Engine)
  * Architects:  Justin D. Grimm (K-Lani 13 Actual / Mr. Monkey Hand) & Gemini-Carbon
  * Ethos:       Warm Myspace-Tom Porch Light · Linus's Law · Zero Manual Data Entry
  *
  * MANAGES ALL FOUR OPEN-COMMONS REPOSITORIES VIA GIT API:
- *   1. leadpiperl1/dandelion-os                                  (v5.0.2)
- *   2. leadpiperl1/happy-hobos-guide-to-the-dandelion-network    (v5.0.2)
- *   3. leadpiperl1/wookiw-ewok                                   (v5.0.2)
+ *   1. leadpiperl1/dandelion-os                                  (v5.1.0)
+ *   2. leadpiperl1/happy-hobos-guide-to-the-dandelion-network    (v5.1.0)
+ *   3. leadpiperl1/wookiw-ewok                                   (v5.1.0)
  *   4. leadpiperl1/epigenetic-state-dispatch                     (v1.0.0 Preprint + PDF + Code)
  *
  * ZERO-MANUAL-ENTRY GIT -> ZENODO WORKFLOW (3 CLICKS TOTAL):
  *   STEP 1: Paste this file into Google Apps Script (Code.gs), press Ctrl+S,
- *           select `pushAllFourCampfireRepos_v5_0_2` in the top dropdown, and click Run.
+ *           select `pushAllFourCampfireRepos_v5_1_0` in the top dropdown, and click Run.
  *           (This pushes all colorful SVG banners, READMEs, code, PDFs, and .zenodo.json
  *            files, and automatically creates `epigenetic-state-dispatch` on GitHub!)
  *   STEP 2: Open https://zenodo.org/account/settings/github/ , click "Sync now",
  *           and make sure the toggle switches next to ALL 4 repositories are flipped ON.
- *   STEP 3: Come back here, select `cutZenodoReleasesAllFour_v5_0_2` in the dropdown,
+ *   STEP 3: Come back here, select `cutZenodoReleasesAllFour_v5_1_0` in the dropdown,
  *           and click Run! GitHub will publish formal releases on all 4 repos, and
  *           Zenodo's webhook will automatically read `.zenodo.json` and mint permanent
  *           DOIs for you with ZERO manual typing!
@@ -33,23 +33,23 @@ const MAX_LINUS_LAW_BLOB_BYTES_V502 = 2097152; // 2 MB per-file audit guard
 const QUAD_REPO_TARGETS = {
   OS_KERNEL: {
     repo: "dandelion-os",
-    payloadFile: "dandelion_github_payload_v5.0.2.json",
-    releaseTag: "v5.0.2",
-    releaseTitle: "Dandelion Successor Architecture v5.0.2 — Campfire Porch & 577B C99/Julia Substrate",
+    payloadFile: "dandelion_github_payload_v5.1.0.json",
+    releaseTag: "v5.1.0",
+    releaseTitle: "Dandelion Successor Architecture v5.1.0 — Campfire Porch & 577B C99/Julia Substrate",
     description: "Dandelion Successor Architecture: Warm, Local-First Balanced Ternary OS (≤ 18.50 W), Bite-10 Coma-Bridge & Star Trek Communicator Substrate"
   },
   HAPPY_HOBO: {
     repo: "happy-hobos-guide-to-the-dandelion-network",
-    payloadFile: "happy_hobo_github_payload_v5.0.2.json",
-    releaseTag: "v5.0.2",
-    releaseTitle: "The Happy Hobo's Guide to the Dandelion Network v5.0.2 — Don't Panic, Pack Light (V=2/3)",
+    payloadFile: "happy_hobo_github_payload_v5.1.0.json",
+    releaseTag: "v5.1.0",
+    releaseTitle: "The Happy Hobo's Guide to the Dandelion Network v5.1.0 — Don't Panic, Pack Light (V=2/3)",
     description: "DON'T PANIC · PACK LIGHT (V=2/3): Open-Source Ecotone Fist-Bump Waveguide Commons & Madras Sanctuary Guide"
   },
   WOOKIW_EWOK: {
     repo: "wookiw-ewok",
-    payloadFile: "wookiw_ewok_github_payload_v5.0.2.json",
-    releaseTag: "v5.0.2",
-    releaseTitle: "Wookiw-Ewok (WikiWeWalk) v5.0.2 — Na-Dene & Bergson Waveguide + Open Commons Wiki",
+    payloadFile: "wookiw_ewok_github_payload_v5.1.0.json",
+    releaseTag: "v5.1.0",
+    releaseTitle: "Wookiw-Ewok (WikiWeWalk) v5.1.0 — Na-Dene & Bergson Waveguide + Open Commons Wiki",
     description: "Wookiw-Ewok (WikiWeWalk): Decentralized Open-Source Knowledge Wiki, Na-Dene & Bergson Waveguides, and Madras Slate Pearls"
   },
   EPIGENETIC_PREPRINT: {
@@ -64,7 +64,7 @@ const QUAD_REPO_TARGETS = {
 /**
  * STEP 1 FUNCTION: Pushes all 4 colorful repos (including binary PDFs & SVG banners)!
  */
-function pushAllFourCampfireRepos_v5_0_2() {
+function pushAllFourCampfireRepos_v5_1_0() {
   const summary = [];
   [
     QUAD_REPO_TARGETS.OS_KERNEL,
@@ -82,7 +82,7 @@ function pushAllFourCampfireRepos_v5_0_2() {
  * STEP 3 FUNCTION: Run AFTER flipping the 4 repo switches ON at zenodo.org/account/settings/github/
  * Cuts formal GitHub Releases so Zenodo auto-ingests .zenodo.json with zero manual typing!
  */
-function cutZenodoReleasesAllFour_v5_0_2() {
+function cutZenodoReleasesAllFour_v5_1_0() {
   const props = PropertiesService.getScriptProperties();
   const token = props.getProperty("GITHUB_TOKEN");
   if (!token) throw new Error("Missing GITHUB_TOKEN in Script Properties.");

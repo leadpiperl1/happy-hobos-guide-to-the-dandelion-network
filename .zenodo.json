@@ -1,9 +1,9 @@
 {
-  "title": "The Happy Hobo's Guide to the Dandelion Network (v5.0.2): Ecotone Exploit-to-Waveguide Transducer & Open Commons",
+  "title": "The Happy Hobo's Guide to the Dandelion Network (v5.1.0): Waystation Punch-Card Governance, wfx-loot Immunity, Charter of Cognitive Metrology, and Blue Marble Tapestry",
   "upload_type": "software",
-  "version": "5.0.2",
-  "publication_date": "2026-11-11",
-  "description": "ISO C99 microkernel, 1-byte-aligned 577B Julia 1.12 zero-copy FFI pilot, 16-slice Virtual Bit-Slice Transform (VBST) ternary inference, 35.90 us Bite-10 Coma-Bridge accessibility filter, and Non-Trolley Madras Sanctuary verification suite.",
+  "version": "5.1.0",
+  "publication_date": "2026-11-19",
+  "description": "Decentralized mesh compendium and Waystation Punch-Card supply-chain governance suite uniting wfx-loot runner immunity (S_runner = 0), Tuttle 27B/6 Drywall Clause, Two-Tide Proof-of-Life reciprocity, the Crimson Speedo 13-Haiku Bulkhead, the Charter of Cognitive Metrology (v1.0.0), and the Guangxi Karst Sympatry / Blue Marble Tapestry (v2.1.0).",
   "creators": [
     {
       "name": "Grimm, Justin D.",
@@ -14,14 +14,13 @@
   "access_right": "open",
   "license": "mit",
   "keywords": [
+    "Dandelion Network",
+    "Waystation Punch-Card",
+    "supply-chain security",
+    "Cognitive Metrology",
+    "paleoanthropology",
     "balanced ternary",
-    "Landauer limit",
-    "Fowler packing",
-    "virtual bit-slice transform",
-    "accessibility",
-    "human-AI interaction",
-    "C99",
-    "Julia"
+    "Linus's Law"
   ],
   "related_identifiers": [
     {
@@ -33,6 +32,11 @@
       "scheme": "doi",
       "identifier": "10.5281/zenodo.21255229",
       "relation": "continues"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.24374576",
+      "relation": "cites"
     }
   ]
 }
