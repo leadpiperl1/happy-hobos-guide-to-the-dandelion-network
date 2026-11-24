@@ -1,9 +1,9 @@
 {
-  "title": "The Happy Hobo's Guide to the Dandelion Network (v5.1.0): Waystation Punch-Card Governance, wfx-loot Immunity, Charter of Cognitive Metrology, and Blue Marble Tapestry",
+  "title": "The Happy Hobo's Guide to the Dandelion Network (v5.2.0): Waystation Punch-Card Governance, wfx-loot Immunity, Charter of Cognitive Metrology, and 98-DOI Open Commons Compendium",
   "upload_type": "software",
-  "version": "5.1.0",
-  "publication_date": "2026-11-19",
-  "description": "Decentralized mesh compendium and Waystation Punch-Card supply-chain governance suite uniting wfx-loot runner immunity (S_runner = 0), Tuttle 27B/6 Drywall Clause, Two-Tide Proof-of-Life reciprocity, the Crimson Speedo 13-Haiku Bulkhead, the Charter of Cognitive Metrology (v1.0.0), and the Guangxi Karst Sympatry / Blue Marble Tapestry (v2.1.0).",
+  "version": "5.2.0",
+  "publication_date": "2026-11-24",
+  "description": "Decentralized mesh compendium and Waystation Punch-Card supply-chain governance suite uniting wfx-loot runner immunity (S_runner = 0, 14-day Dependabot cooldown, SHA-pinned CI, hardware-bound Ed25519 SSH signatures), Tuttle 27B/6 Drywall Clause, Two-Tide Proof-of-Life reciprocity, the Crimson Speedo 13-Haiku Bulkhead, the Charter of Cognitive Metrology (v1.0.0), Cognitive Common Carriage (10.5281/zenodo.24401748), Triadic Falsification & Deep Reductio (10.5281/zenodo.24509374), and the Nov 24 21-DOI Wave 1-3 Open Commons catch-up (98 total Zenodo publications).",
   "creators": [
     {
       "name": "Grimm, Justin D.",
@@ -18,25 +18,21 @@
     "Waystation Punch-Card",
     "supply-chain security",
     "Cognitive Metrology",
+    "Cognitive Common Carriage",
+    "Triadic Falsification",
     "paleoanthropology",
     "balanced ternary",
     "Linus's Law"
   ],
   "related_identifiers": [
-    {
-      "scheme": "url",
-      "identifier": "https://github.com/leadpiperl1/happy-hobos-guide-to-the-dandelion-network",
-      "relation": "isSupplementTo"
-    },
-    {
-      "scheme": "doi",
-      "identifier": "10.5281/zenodo.21255229",
-      "relation": "continues"
-    },
-    {
-      "scheme": "doi",
-      "identifier": "10.5281/zenodo.24374576",
-      "relation": "cites"
-    }
+    { "scheme": "url", "identifier": "https://github.com/leadpiperl1/happy-hobos-guide-to-the-dandelion-network", "relation": "isSupplementTo" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.21255229", "relation": "continues" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24374576", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24401748", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24508791", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24509374", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24509421", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24510190", "relation": "cites" },
+    { "scheme": "doi", "identifier": "10.5281/zenodo.24510196", "relation": "cites" }
   ]
 }

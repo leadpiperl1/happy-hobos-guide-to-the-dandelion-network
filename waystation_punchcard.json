@@ -1,19 +1,19 @@
 {
   "protocol": "DND3-WAYSTATION-PUNCHCARD",
-  "schema_version": "1.2.0",
+  "schema_version": "1.3.0",
   "repository": "leadpiperl1/happy-hobos-guide-to-the-dandelion-network",
-  "version": "v5.1.0",
-  "timestamp_utc": "2026-11-19T17:58:45Z",
-  "pre_punch_git_tree_hash": "cb12e4d5087a4e5743ac9440506ddbc9963911da",
+  "waystation_branch": "waystation/v5.2.0",
+  "version": "v5.2.0",
+  "timestamp_utc": "2026-11-24T22:58:20Z",
+  "pre_punch_git_tree_hash": "28a14a699188a4a19e3533a71001fc3835717019",
   "runner_secrets_exposed": 0,
   "npm_lifecycle_scripts": 0,
+  "dependabot_cooldown_days": 14,
+  "seed": 42,
   "tuttle_27b6_drywall_bypass": true,
-  "two_tide_windows_cst": [
-    "09:00",
-    "18:00"
-  ],
-  "ssh_signed": false,
-  "human_approved": true,
-  "status": "PUNCHED_AND_CLEARED",
+  "two_tide_windows_cst": ["09:00", "18:00"],
+  "ssh_signed": true,
+  "human_approved": false,
+  "status": "STAGED_AT_WAYSTATION",
   "exit_invariant": 255
 }
